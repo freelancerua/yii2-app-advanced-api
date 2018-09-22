@@ -15,7 +15,7 @@ is a separate Yii application.
 The template is designed to work in a team development environment. It supports
 deploying the application in different environments.
 
-Documentation is at [docs/guide/README.md](docs/guide/README.md).
+Documentation is at [docs/guide/README.md](https://github.com/yiisoft/yii2-app-advanced/blob/master/docs/guide/README.md).
 
 [![Latest Stable Version](https://img.shields.io/packagist/v/yiisoft/yii2-app-advanced.svg)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
 [![Total Downloads](https://img.shields.io/packagist/dt/yiisoft/yii2-app-advanced.svg)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
@@ -55,6 +55,14 @@ frontend
     views/               contains view files for the Web application
     web/                 contains the entry script and Web resources
     widgets/             contains frontend widgets
+api
+    config/              contains console configurations
+    controllers/         contains console controllers (commands)
+    migrations/          contains database migrations
+    models/              contains console-specific model classes
+    runtime/             contains files generated during runtime
+    components/          contains some overrided Yii2 components
+    tests/               contains tests for api application
 vendor/                  contains dependent 3rd-party packages
 environments/            contains environment-based overrides
 ```
